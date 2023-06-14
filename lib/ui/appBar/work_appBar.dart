@@ -1,0 +1,1 @@
+import 'package:flutter/material.dart';class WorkAppBar extends StatelessWidget {  const WorkAppBar({Key? key}) : super(key: key);  @override  Widget build(BuildContext context) {    return  AppBar(        backgroundColor: const Color(0xff031A31),            title: Text("Jobs AppBar")    );  }}

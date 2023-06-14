@@ -1,0 +1,1 @@
+import 'package:flutter/material.dart';class MyNetworkAppBar extends StatelessWidget {  const MyNetworkAppBar({Key? key}) : super(key: key);  @override  Widget build(BuildContext context) {    return AppBar(        backgroundColor: const Color(0xff031A31),        title: Text(" MyNetwork AppBar"),    );  }}

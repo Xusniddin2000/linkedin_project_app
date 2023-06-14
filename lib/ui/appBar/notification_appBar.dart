@@ -1,0 +1,1 @@
+import 'package:flutter/material.dart';class NotificationAppBar extends StatelessWidget {  const NotificationAppBar({Key? key}) : super(key: key);  @override  Widget build(BuildContext context) {    return AppBar(        backgroundColor: const Color(0xff031A31),       title: Text("Notification AppBar"),    );  }}
